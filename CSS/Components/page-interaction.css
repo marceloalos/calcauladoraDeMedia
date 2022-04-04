@@ -1,4 +1,21 @@
 .page-interaction {
-    margin-bottom: auto;
-    color: blanchedalmond;
-  }
+  margin: 10px 0;
+  color: black;
+}
+
+.page-interaction._nota1 {
+  color: red;
+}
+
+.page-interaction._nota2 {
+  color: yellow;
+}
+
+.page-interaction._nota3 {
+  color: deeppink;
+}
+
+.page-interaction._nota4 {
+  color: purple;
+}
+

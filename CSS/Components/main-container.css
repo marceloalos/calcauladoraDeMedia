@@ -1,5 +1,4 @@
 .main-container {
-    box-sizing: border-box;
     text-align: center;
     margin: 2%;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopenclipart.org%2Fimage%2F2400px%2Fsvg_to_png%2F8055%2Fryanlerch-ruler-and-calculator.png&f=1&nofb=1");
@@ -8,4 +7,28 @@
     background-size: 87%;
 }
 
-  
+.main-container .input {
+    padding: 10px 15px;
+    color: black;
+    border: 3px solid;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-container button {
+  border: 0;
+  color: whitesmoke;
+  background: #000;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-container button:hover {
+  opacity: 0.8;
+}
+

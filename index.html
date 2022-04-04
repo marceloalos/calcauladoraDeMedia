@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Secular+One&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="CSS/Components/reset.css">
     <link rel="stylesheet" href="CSS/body.css">
     <link rel="stylesheet" href="CSS/Components/imersao-logo.css">
     <link rel="stylesheet" href="CSS/Components/main-container.css">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="CSS/Components/page-subtitle.css">
     <link rel="stylesheet" href="CSS/Components/page-interaction.css">
     <link rel="stylesheet" href="CSS/Components/form-wrapper.css">
+    <link rel="stylesheet" href="CSS/Components/box-notas.css">
     <link rel="stylesheet" href="CSS/Components/project-logo.css">
 
   <title> Imersão Dev Alura - Aula 01</title>
@@ -31,23 +33,35 @@
         <h3 class="page-interaction">
         Qual o seu nome?
         </h3>
+        <input class="input" type="text" id="nome" name="nome" placeholder="Insira o seu nome"><br>
+
         <div class="form-wrapper">
-        <input type="text" id="nome" name="nome" placeholder="Insira o seu nome"><br>
+            <div class="semester">
+                <div class="box-notas">
+                    <h3 class="page-interaction _nota1">Nota do 1º bimestre</h3>
+                    <input class="input _1" type="number" id="nota1" name="nota1" placeholder="Insira a nota">
+                </div>
 
-        <div class="notas">
-            <input type="number" id="nota1" name="nota1" placeholder="Insira a primeira nota">
-            <input type="number" id="nota2" name="nota2" placeholder="Insira a segunda nota">
+                <div class="box-notas">
+                    <h3 class="page-interaction _nota2">Nota do 2º bimestre</h3>
+                    <input class="input _2" type="number" id="nota2" name="nota2" placeholder="Insira a nota">
+                </div>
+            </div>
+
+            <div class="semester">
+                <div class="box-notas">
+                    <h3 class="page-interaction _nota3">Nota do 3º bimestre</h3>
+                    <input class="input _3" type="number" id="nota3" name="nota3" placeholder="Insira a nota">
+                </div>
+
+                <div class="box-notas">
+                    <h3 class="page-interaction _nota4">Nota do 4º bimestre</h3>
+                    <input class="input _4" type="number" id="nota4" name="nota4" placeholder="Insira a nota">
+                </div>
+            </div>
         </div>
-
-        <div class="notas">
-            <input type="number" id="nota3" name="nota3" placeholder="Insira a terceira nota">
-            <input type="number" id="nota4" name="nota4" placeholder="Insira a quarta nota">
-        </div>
-
         <button onClick="calcularMedia()">Calcular média</button>
-
-        <h3 class="answer" id="mediaFinal"></h3>
-        </div>
+        <h3 class="page-interaction" id="mediaFinal"></h3>
     </div>
 
     <img class="project-logo" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.ss-panamarealestate.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fcalculator.png&f=1&nofb=1" alt="" class="alura-logo">
