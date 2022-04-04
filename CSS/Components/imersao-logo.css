@@ -1,0 +1,9 @@
+.imersao-logo {
+    display: flex;
+    width: 298px;
+    height: 60px;
+    margin: 10px auto 0;
+    padding-left: 1px;
+    background-color: #8495d3;
+    border: 5px solid #000;
+}
