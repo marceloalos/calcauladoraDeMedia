@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: "Secular One", sans-serif;
+    color: #000;
+    background: linear-gradient(236.85deg, #00bfa5 27.26%, #03a9f4 96.03%);
+  }
+  
+  .container {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 2%;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopenclipart.org%2Fimage%2F2400px%2Fsvg_to_png%2F8055%2Fryanlerch-ruler-and-calculator.png&f=1&nofb=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+  }
+  
+  .box-logo {
+    display: inline-flex;
+    justify-content: center;
+    background-color: #8495d3;
+    border: 5px solid #000;
+  }
+  
+  .page-title {
+    font-family: "Pacifico", sans-serif;
+    font-size: 50px;
+    margin: 5px 0 0;
+  }
+  
+  .page-subtitle {
+    font-size: 27px;
+    margin-top: -20px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .page-interaction {
+    margin-bottom: auto;
+    color: blanchedalmond;
+  }
+  
+  .wrapper-notas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-top: 25px;
+  }
+  
+  .projeto-logo {
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    color: black;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: whitesmoke;
+    background: #000;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  .form-wrapper h3 {
+    padding: 15px 20px;
+  }
+  
