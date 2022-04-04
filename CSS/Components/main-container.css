@@ -1,0 +1,16 @@
+ .main-container {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 2%;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopenclipart.org%2Fimage%2F2400px%2Fsvg_to_png%2F8055%2Fryanlerch-ruler-and-calculator.png&f=1&nofb=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+  }
+
+  .main-container .alura-logo {
+    display: inline-flex;
+    justify-content: center;
+    background-color: #8495d3;
+    border: 5px solid #000;
+  }
