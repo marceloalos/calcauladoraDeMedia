@@ -8,8 +8,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 600px;
+    align-items: center;
+    width: 700px;
     margin: 15px auto 15px;
+}
+
+.form-wrapper .position-icon {
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-wrapper .icon {
+    width: 70px;
+    height: 70px;
 }
 
 
